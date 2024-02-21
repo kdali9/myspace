@@ -1,0 +1,89 @@
+*{
+    text-decoration: none;
+    background-color:#08221b;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    background-color: transparent;
+    font-family: Calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a {
+    color:aquamarine;
+    font-size: 35px;
+    font-weight:400;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right:20px;
+}
+.resume{
+    padding: 10px;
+    border: 2px solid;
+}
+.resume a{
+    color: aquamarine;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   align-items:center;
+   justify-content:center;
+
+}
+.text{
+    margin: 0;
+    padding: 0;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.intro{
+    color: aquamarine;
+    font-size: 18px;
+}
+
+.name{
+    color: beige;
+    font-size: 45px;
+}
+.breakdown{
+    color:beige;
+}
+.about{
+    color:antiquewhite;
+    font-size: 20px;
+}
+.picto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.perpendicular-line{
+    width: 30%;
+    margin: auto;
+    margin-top: 40%;
+    margin-bottom: 0;
+    transform: rotate(90deg);
+    border-color:aquamarine;
+}
